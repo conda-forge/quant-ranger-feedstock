@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.1"
+  version: "0.1.2"
   python_min: "3.14"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/q/quant-ranger/quant_ranger-${{ version }}.tar.gz
-  sha256: 45fe788894537ee8d2863df3fdaae5ff660e0fa3380291d766569a164d7cdd8b
+  sha256: 16c998f3e194d8b12439d07f7d1517725e80b5a1552bd2569fee9ae2e2039d46
 
 build:
   number: 0
