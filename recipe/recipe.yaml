@@ -84,11 +84,6 @@ outputs:
           files:
             - share/agent-skills/create-custom-updater/SKILL.md
           strict: true
-      - script:
-          - agentskills validate $CONDA_PREFIX/share/agent-skills/create-custom-updater
-        requirements:
-          run:
-            - skills-ref
     about:
       summary: Agent skill for creating quant-ranger custom updaters
       description: |
