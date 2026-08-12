@@ -88,7 +88,8 @@ outputs:
       summary: Agent skill for creating quant-ranger custom updaters
       description: |
         Guides coding agents through writing, debugging, and running one-off
-        quant-ranger custom updaters for repository migrations and audits.
+        quant-ranger custom updaters for repository migrations and audits. The
+        skill can be configured for supported coding agents with pixi-skills.
 
 about:
   summary: Tool for maintenance work across GitHub repositories.
