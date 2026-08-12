@@ -16,11 +16,13 @@ source:
     file_name: SKILL.md
     target_directory: skills/create-custom-updater
 
+build:
+  number: 0
+
 outputs:
   - package:
       name: quant-ranger
     build:
-      number: 0
       noarch: python
       script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
       python:
@@ -70,7 +72,6 @@ outputs:
   - package:
       name: agent-skill-quant-ranger
     build:
-      number: 0
       noarch: generic
       script:
         - mkdir -p $PREFIX/share/agent-skills/create-custom-updater
